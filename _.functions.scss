@@ -1,0 +1,40 @@
+@import "./_variables";
+
+
+//Ändrar färgern i headern och ändrar textens storlek
+@mixin header_attributes($theme_color, $text_color, $main_font){
+    background-color: $theme_color;
+    height: 10vh;
+    width: $standard_width;
+    color: $text_color;
+    font-size: $main_font;
+}  
+
+@mixin h2_attributes(){
+    margin-left: 10px;
+    border-top: 50px;
+
+}
+
+
+// Detta är navigation baren som finns på toppen av hemsidan
+@mixin navigation_bar($theme_color, $text_color){
+    float: right;
+    color: $text_color;
+    text-align: $standard_position;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: $theme_color;
+    overflow: hidden;
+    display: inline;
+    margin-top: -30px;
+ 
+}
+ 
+// Detta är de navigationbaren gör när man håller muspekaren över länkarna till andra delaran av hemsidan
+@mixin navigation_bar_hover_attribute($text_color, $theme_color){
+    background-color: $text_color;
+    color: $theme_color;
+    border-radius: 20px;
+ 
+}

@@ -1,0 +1,43 @@
+header {
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  color: white;
+  font-size: 4em;
+}
+
+h2 {
+  margin-left: 10px;
+  border-top: 50px;
+}
+
+.navBar li {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  background-color: black;
+  overflow: hidden;
+  display: inline;
+  margin-top: -30px;
+}
+
+.navBar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  background-color: black;
+  overflow: hidden;
+  display: inline;
+  margin-top: -30px;
+}
+
+.navBar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=master.css.map */
